@@ -96,7 +96,18 @@ $(function(){
             }); 
         }
 
-})(Zepto);
+})(jQuery);
+function isnavigator(){
+    var u = navigator.userAgent, app = navigator.appVersion;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1;
+    var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); 
+    if (isIOS) {
+        return {'tap':true};  
+    }else{
+        return {'click':true};
+    }
+}
+
 
 var  rule={
     getStatesFn:function(){
@@ -458,4 +469,5 @@ function addData(arg,callback){
     return this;
  
 }
+
 

@@ -1,0 +1,584 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"j",
+				"javascript"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"re",
+				"recharge"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"fotns",
+				"font-size"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"d",
+				"d\tdisplay: ${1:block};"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"po",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"ov",
+				"ov\toverflow: ${1:hidden};"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"margt",
+				"margin-top"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"colo",
+				"color4"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"boder",
+				"boder-color"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"LIN",
+				"line-height"
+			],
+			[
+				"v",
+				"va\tvertical-align"
+			],
+			[
+				"col",
+				"color2"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"color",
+				"color2"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"pos",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"setsass",
+				"Set Syntax: Sass"
+			],
+			[
+				" install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/WWW/wangka/index.html",
+		"/D/WWW/wangba-shop/assets/font/iconfont.css",
+		"/C/Users/bb595700239/Desktop/wow-damo2/assets/font/iconfont.css",
+		"/C/Users/bb595700239/Desktop/wechatGz.jsp",
+		"/C/Users/bb595700239/Desktop/项鲁.doc",
+		"/D/WWW/wangka/schedule.html",
+		"/D/WWW/wangka/gamesTeamJoin.html",
+		"/D/WWW/wangka/recharge.html",
+		"/D/WWW/wangka/wangkaList.html",
+		"/D/WWW/wangka/bindCard.html",
+		"/D/WWW/wangka/gamesOneJoin.html",
+		"/D/WWW/wangka/activityGame.html",
+		"/D/WWW/wangka/assets/js/choujiang.js",
+		"/C/Users/bb595700239/Desktop/fastclick.min.js",
+		"/D/WWW/wangka/rechargeTreaty.html",
+		"/D/WWW/wangka/assets/css/base.css",
+		"/D/WWW/wangka/assets/js/fastclick.js",
+		"/D/WWW/wblm/share.html",
+		"/D/WWW/wblm/recharge.html",
+		"/D/WWW/wblm/rechargeTreaty.html",
+		"/D/WWW/wblm/bindCard.html",
+		"/C/Users/bb595700239/Desktop/网吧联盟/网咖报价表.txt",
+		"/D/WWW/wblm/wangkaCenter.html",
+		"/D/WWW/wblm/gameCenter.html",
+		"/D/WWW/wblm/gamesList.html",
+		"/D/WWW/wblm/gamesTeamJoin.html",
+		"/D/WWW/wblm/gamesOneJoin.html",
+		"/C/Users/bb595700239/Desktop/wblm/choujiang.html",
+		"/D/WWW/wblm/wangkaLis.html",
+		"/D/WWW/wblm/userCenter.html",
+		"/D/WWW/wblm/assets/font/iconfont.css",
+		"/D/WWW/wblm/assets/js/mobile.js",
+		"/D/WWW/wblm/games-list.html",
+		"/D/WWW/webpack/webpack.config.js",
+		"/D/WWW/Myapp/index.html",
+		"/D/WWW/Myapp/node_modules/.1.13.2@webpack/lib/webpack.js",
+		"/C/Users/bb595700239/Desktop/新建文本文档.txt",
+		"/D/WWW/Myapp/webpack.production.config.js",
+		"/D/WWW/webpack-basic-starter/webpack.config.js",
+		"/C/Users/bb595700239/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/bb595700239/Desktop/wow-damo2/代理商后台-budget-在售商品.html",
+		"/D/WWW/zzt/assets/css/base.css",
+		"/D/WWW/zzt/html/关于我们-公司简介.html",
+		"/D/WWW/zzt/html/我要理财.html",
+		"/D/WWW/zzt/html/我的专享.html",
+		"/D/WWW/zzt/html/我要理财2.html",
+		"/D/WWW/zzt/我要理财.html",
+		"/D/WWW/zzt/关于我们-公司简介.html",
+		"/D/WWW/zzt/gulpfile.js",
+		"/D/node-sites/express-test/routes/index.js",
+		"/D/node-sites/express-test/views/index.jade",
+		"/D/node-sites/express-test/views/test.jade",
+		"/C/Users/bb595700239/Desktop/zzt/gulpfile.js",
+		"/C/Users/bb595700239/Desktop/zzt/index.html",
+		"/C/Users/bb595700239/Desktop/zzt/assets/css/base.css",
+		"/C/Users/bb595700239/Desktop/zzt/assets/css/main.css",
+		"/C/Users/bb595700239/Desktop/zzt/assets/js/jquery.easy-pie-chart.js",
+		"/C/Users/bb595700239/Desktop/zzt/assets/js/goalProgress.js",
+		"/C/Users/bb595700239/Desktop/zzt/assets/js/jquery.SuperSlide.2.1.1.js",
+		"/C/Users/bb595700239/Desktop/zzt/sass/index.scss",
+		"/D/te/sass/index.scss",
+		"/C/Users/bb595700239/Desktop/zzt/package.json"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"buttons",
+			"font-size16",
+			"qq",
+			"30",
+			".index ",
+			".index",
+			".index ",
+			"width=\"160px\" height=\"160px\"",
+			"onscroll",
+			"45",
+			":nth-child(",
+			"friend_add",
+			"people",
+			"my",
+			".top-fixed-con ",
+			"wangkaList.html",
+			"530",
+			"70",
+			"<div class=\"weui_cell_bd weui_cell_primary\">\n                \t<p class=\"p1\">衡山路店</p>\n                \t<p class=\"p2\">上海市徐汇区永嘉路697号</p>\n                </div>",
+			"wangkaCenter.html",
+			"60",
+			"    ",
+			"class=\">",
+			"class=\"",
+			"needsclick",
+			"label",
+			"}",
+			"${",
+			"drawRouletteWheel",
+			"rnd",
+			"<a class=\"",
+			"class=\"",
+			"needsclick",
+			"label",
+			"<div ",
+			"label",
+			"id=\"",
+			"for=\"",
+			"phone",
+			"url+",
+			"formsubmit",
+			"getStatesFn",
+			"checkstate",
+			"getQueryString",
+			"<a",
+			"p2",
+			"p1",
+			"FastClick.prototype.onTouchEnd",
+			"FastClick.prototype.onTouchEnd ",
+			"turnplate.bRotate",
+			"tupBtn",
+			"console",
+			"rotateFn",
+			"rotateTimeOut",
+			"h3",
+			"h2",
+			"zj-main",
+			"h2",
+			"    ",
+			"30",
+			"x11",
+			"<a>",
+			"li",
+			"ul",
+			"20",
+			"52",
+			"30",
+			"color: #5f646e;",
+			"exc-number2",
+			" href=\"#\"",
+			"nav-list",
+			"<p class=\"p2\">",
+			"<p class=\"p1\">",
+			"300",
+			"200",
+			"100",
+			"50",
+			"#",
+			"12",
+			"14",
+			"}",
+			" id=\"realName\"",
+			"50",
+			"e691",
+			"e0e0e0",
+			",null,null,1200,{className:'favorpop'},false",
+			"100",
+			"fav",
+			"alert",
+			"getStatesFn",
+			"validation",
+			"26",
+			".list-type",
+			"fa6118",
+			"icon-home",
+			"/mobile/",
+			"hash",
+			"generateText",
+			"moment",
+			"dev-tools",
+			"TEM_PATH",
+			"html-webpack-plugin",
+			"checked",
+			"initialChecked",
+			"joubnText",
+			"38",
+			"37",
+			"微软雅黑",
+			".tshop-pbsm-shop-nav-ch .all-cats",
+			".tshop-pbsm-shop-nav-ch",
+			".tshop-um-ap-header .ap-content",
+			"http://static.72pk.com/",
+			"40",
+			"      ",
+			"span",
+			"class=\"\"",
+			" class=\"",
+			"current",
+			"80",
+			"assets/",
+			"assets",
+			"          ",
+			"#e5e5e5",
+			"ff5256",
+			";\n",
+			".item-box-con ul",
+			"main-box",
+			";}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "computers.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

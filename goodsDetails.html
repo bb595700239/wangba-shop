@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <title>易购商城</title>
+    <link rel="stylesheet" href="assets/font/iconfont.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/iscroll-lite.js"></script>
+    <link rel="stylesheet" href="assets/js/dialog.css">
+    <script type="text/javascript" src="assets/js/dialog.js"></script>
+    <link rel="stylesheet" href="assets/js/swiper-3.2.7.min.css">
+    <script type="text/javascript" src="assets/js/swiper-3.2.7.jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/mobile.js"></script>
+</head>
+
+<body>
+   <div class="main fixed-bottom">
+        <!--商品详情 -->
+        <div class="container">
+            <div class="swiper-container swiper-container3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(assets/images/pro2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(assets/images/pro2.jpg)"></div>
+                </div>
+                <div class="pagination"></div>
+            </div>
+
+            <script type="text/javascript">
+                var swiper = new Swiper('.swiper-container3', {
+                    pagination: '.pagination',
+                    autoplay : 3000,
+                    paginationClickable: '.pagination',
+                    loop : true,
+                    autoplayDisableOnInteraction : false
+                });
+            </script>
+            <div class="detail-content padding-lr8">
+                <div class="tit-box">
+                    <div class="tit">AMD 组装电脑主机组装机DIY台式机 四核 LOL游戏迷你办公机全套</div>
+                </div>
+                <div class="price"><span class="s1"><small>¥</small>3288<small>.00</small></span></div>
+                <p class="p2">商户名：天盛科技有限公司</p>
+            </div>
+            <div class="detail-tit padding-lr8 flex-box" id="pop"><span>产品参数</span><i class="more icon-more_light"></i></div>
+
+            <div class="pro-detail padding-lr8">
+                <img src="assets/images/pro2-1.jpg">
+            </div>
+        </div>
+        <div id="servicecon" class="none">
+            <div class="tit">产品参数</div>
+            <div id="wrapper-sub" class="wrapper-g" style="top: 52px; bottom: 52px;">
+                <div id="scroller" class="scroller-g">
+                    <ul class="boxsizing weui_cells padding-lr8">
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">主板品牌</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">MAXSUN 铭瑄</a>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">CPU 型号</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">7600</a>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">CPU 核心数</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">四核心</a>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">固态类型</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">固态硬盘</a>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">内存容量</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">8GB</a>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">显卡类型</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">集成显卡</a>
+                        </li>
+                        <li class="weui_cell">
+                            <div class="weui_cell_hd">硬盘容量</div>
+                            <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">2TB</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fix-bottom">
+            <!-- <a class="fix-b toggle-collect">
+                <i class="icon-like"></i>
+                <p>收藏</p>
+            </a> -->
+            <a class="fix-b toggle-collect active">
+                <i class="icon-likefill"></i>
+                <p>已收藏</p>
+            </a>
+            <a href="userCenter.html" class="fix-b">
+                <i class="icon-3"></i>
+                <p>商户QQ</p>
+            </a>
+            <a class="fix-b telshoper">
+                <i class="icon-phone-line"></i>
+                <p>商户电话</p>
+            </a>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                
+
+                $('#pop').Dialog({target:"#servicecon",type:'alert',mask:true,width:'100%',height:280,animate:'bounceInUp',animateout:'bounceOutDown',className:'servicepop',beforeShow:function(content){
+                        var myScroll = new IScroll('#wrapper-sub', isnavigator()); 
+                    },button:true})
+
+
+
+                
+
+                $('.toggle-collect').click(function(){//点击收藏
+                    var _this=$(this);
+                    $.ajax({
+                        type: "GET",
+                        url: '#',
+                        dataType: "json",
+                        success: function(data) {
+                            if(data.once){
+                                _this.addClass('active').find('i').addClass('icon-favorfill')
+                                _this.find('p').html('已收藏')
+                                $.alert('收藏成功','','',1200,{className:'favorpop'},false)
+                            }else{
+                                $.alert('取消收藏','','',1200,{className:'favorpop'},false)
+                                _this.removeClass('active').find('i').removeClass('icon-favorfill')
+                                _this.find('p').html('收藏')
+                            }
+                        },
+                        error: function(){
+                            $.alert('网络连接失败','','',1200,{className:'favorpop'},false)
+                        }
+                    })
+                    
+                })
+                
+                $('.telshoper').click(function(){
+                    $.confirm('<div class="dangerbox"><i class="icon-warnfill"></i><p class="p1">认证后才能联系商户<br/>请到网页版认证！</p><p class="p2">提示：在PC浏览器上打开www.yigou.com</p></div>',[{'yes':'确定'}],function(type){if(type){this.hide()}},{width:300})
+                })
+            })
+                
+                
+
+        </script>
+        <!--商品详情 结束-->
+    </div>
+</body>
+
+</html>

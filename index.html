@@ -14,25 +14,24 @@
 	<meta name="x5-orientation" content="portrait">
 	<title>易购商城</title>
 	<link rel="stylesheet" href="assets/font/iconfont.css">
-	<link rel="stylesheet" href="assets/css/animate.min.css">
-	<link rel="stylesheet" href="assets/css/base.css">
-	<script type="text/javascript" src="assets/js/zepto.min.js"></script>
-	<script type="text/javascript" src="assets/js/fastclick.js"></script>
-	<link rel="stylesheet" href="assets/js/dialog.css">
-	<script type="text/javascript" src="assets/js/dialog.js"></script>
-	<script type="text/javascript" src="assets/js/iscroll.js"></script>
-	<link rel="stylesheet" href="assets/js/swiper-3.2.7.min.css">
-	<script type="text/javascript" src="assets/js/swiper-3.2.7.jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/mobile.js"></script>
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/iscroll-lite.js"></script>
+    <link rel="stylesheet" href="assets/js/dialog.css">
+    <script type="text/javascript" src="assets/js/dialog.js"></script>
+    <link rel="stylesheet" href="assets/js/swiper-3.2.7.min.css">
+    <script type="text/javascript" src="assets/js/swiper-3.2.7.jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/mobile.js"></script>
 </head>
 
-<body class="white-bg">
+<body>
 	<div class="topbar flex-box">
 		<div class="search-warp flex-box">
             <i class="icon-search_light"></i>
             <input class="boxsizing" type="search" placeholder="请输入商品关键字"> 
         </div>
-        <i class="icon-my_light"></i>
+        <i class="icon-my_light" id="isuser"></i>
 	</div>
 	<div class="swiper-container">
             <div class="swiper-wrapper">
@@ -59,50 +58,91 @@
             })
             </script>
         </div>
-	<div class="fixed-bottom index">
-		<div class="nav-list flex-box">
-	        <a href="#"><div class="con"><i class="icon-zhuji2"></i>电脑主机</div></a>
-	        <a href="#"><div class="con"><i class="icon-xianshiqi"></i>显示器</div></a>
-	        <a href="#"><div class="con"><i class="icon-shubiao"></i>外设耗材</div></a>
-	        <a href="#"><div class="con"><i class="icon-wangluoshebei"></i>网络设备</div></a>
-	        <a href="#"><div class="con"><i class="icon-paintfill"></i>装修方案</div></a>
-	        <a href="#"><div class="con"><i class="icon-rankfill"></i>营销</div></a>
-	        <a href="#"><div class="con"><i class="icon-pingzi"></i>快消品</div></a>
-	        <a href="#"><div class="con"><i class="icon-circlefill"></i>全部</div></a>
-	    </div>
-	    
 
-		<div class="fix-bottom">
-	        <a href="index.html" class="fix-b active">
-	            <i class="icon-homefill"></i>
-	            <p>首页</p>
-	        </a>
-	        <a href="userCenter.html" class="fix-b">
-	            <i class="icon-people"></i>
-	            <p>我的</p>
-	        </a>
+		<div class="nav-list flex-box">
+	        <a href="computers.html"><div class="con"><i class="icon-zhuji2 bg-ff970f"></i>电脑主机</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-xianshiqi bg-ff6665"></i>显示器</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-shubiao bg-7f4ce6"></i>外设耗材</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-wangluoshebei bg-ffba00"></i>网络设备</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-paintfill bg-1d92e3"></i>装修方案</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-rankfill bg-0abaf5"></i>营销</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-pingzi bg-ffba00"></i>快消品</div></a>
+	        <a href="computers.html"><div class="con"><i class="icon-circlefill bg-16d998"></i>全部</div></a>
 	    </div>
-    </div>
-    <script type="text/javascript">
-    	$(function(){
-    		$('#recharge').click(function(){
-				$.confirm('<div class="con">本操作需要<br />绑定您的上网卡号哦！</div>',[{no:"取消"},{yes:"去绑卡"}],function(type){
-				    if(type=="yes"){
-				    	window.location.href='bindCard.html'
-				    }else if(type=="no"){
-				        this.hide();  
-				    }
-				});
-    		})
-    		$('#signIn').click(function(){
-				$.confirm('<div class="tit orange">恭喜获得5积分，明天继续加油</div>'+
-					'<div class="con">签到规则<br/>第1天获5积分，第2天获10积分，<br/>第3天及以后获20积分；中断重新开始。</div>'+
-					'<div class="go-game"><i class="icon-choujiang"></i></div>'+
-					'<div class="info">花积分，抽奖赢好礼，点击参与</div>',[],null,{className:'ui-qiandao showClose ui-alert',width:'270px'});
-				$.alert('今日已签到,明天再接再厉')
-			})
-    	})
-    </script>
+
+	    <div class="itembox">
+	    	<div class="tit"><i class="icon-hotfill"></i>热卖商品</div>
+	    	<div class="goods-list clearfix">
+                <!-- 首页列表  -->
+                <dl class="goods-item">
+                    <dt class="goods-img">
+                        <a href="goodsDetails.html"><img class="lazy" src="assets/images/pro1.jpg"></a>
+                    </dt>
+                    <dd class="goods-text"><a href="goodsDetails.html">AOC SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金</a></dd>
+                    <dd class="goods-price"><small>￥</small>1588<small>.00</small></dd>
+                </dl>
+                <dl class="goods-item">
+                    <dt class="goods-img">
+                        <a href="goodsDetails.html"><img class="lazy" src="assets/images/pro1.jpg"></a>
+                    </dt>
+                    <dd class="goods-text"><a href="goodsDetails.html">AOC SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金</a></dd>
+                    <dd class="goods-price"><small>￥</small>1588<small>.00</small></dd>
+                </dl>
+                <dl class="goods-item">
+                    <dt class="goods-img">
+                        <a href="goodsDetails.html"><img class="lazy" src="assets/images/pro1.jpg"></a>
+                    </dt>
+                    <dd class="goods-text"><a href="goodsDetails.html">AOC SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金</a></dd>
+                    <dd class="goods-price"><small>￥</small>1588<small>.00</small></dd>
+                </dl>
+                <dl class="goods-item">
+                    <dt class="goods-img">
+                        <a href="goodsDetails.html"><img class="lazy" src="assets/images/pro1.jpg"></a>
+                    </dt>
+                    <dd class="goods-text"><a href="goodsDetails.html">AOC SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金</a></dd>
+                    <dd class="goods-price"><small>￥</small>1588<small>.00</small></dd>
+                </dl>
+                <dl class="goods-item">
+                    <dt class="goods-img">
+                        <a href="goodsDetails.html"><img class="lazy" src="assets/images/pro1.jpg"></a>
+                    </dt>
+                    <dd class="goods-text"><a href="goodsDetails.html">AOC SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金SD3263新品香槟金</a></dd>
+                    <dd class="goods-price"><small>￥</small>1588<small>.00</small></dd>
+                </dl>
+            </div>
+	    </div>
+	    <div class="listcon none">
+            <div id="wrapper-sub" class="wrapper-g">
+                <div id="scroller" class="scroller-g">
+                    <ul class="j-list">
+                        <li><a href="#"><i class="icon-likefill"></i>我的收藏</a></li>
+                        <li><a href="#"><i class="icon-commentfill"></i>我的询价</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+	 
+	<script type="text/javascript">
+		$(function(){
+		    $(window).scroll(function () {
+		        if (document.documentElement.scrollTop + document.body.scrollTop> 100) {
+		        	alert(1)
+		            $('.topbar').addClass('active');
+
+		        }else{
+		            $('.topbar').removeClass('active');
+		        }
+
+		    });
+		    (function(){
+
+                $('#isuser').Dialog({target:".listcon",mask:true,width:150,animate:'',animateout:'',className:'propop-profitType3'}) 
+            })()
+
+		})
+	</script>
+
 </body>
 
 </html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <title>易购商城</title>
+    <link rel="stylesheet" href="assets/font/iconfont.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/iscroll-lite.js"></script>
+    <link rel="stylesheet" href="assets/js/dialog.css">
+    <script type="text/javascript" src="assets/js/dialog.js"></script>
+    <link rel="stylesheet" href="assets/js/swiper-3.2.7.min.css">
+    <script type="text/javascript" src="assets/js/swiper-3.2.7.jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/mobile.js"></script>
+</head>
+
+<body>
+    <ul class="g-tab"><li class="active" data-type="1">待报价</li><li data-type="2">已报价</li><li data-type="3">已关注</li></ul>
+    <ul class="weui_cells offerlist">
+        <li class="flex-box li">
+            <ul>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">品类</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">电脑主机</a>
+                </li>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">截止时间</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">2017-05-30</a>
+                </li>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">已报价</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">10人</a>
+                </li>
+            </ul>
+            <div class="rightbox">
+                <a href="#">给他报价</a>
+                <p class="active"><i class="icon-likefill"></i>已收藏</p>
+            </div>
+
+        </li>
+        <li class="flex-box li">
+            <ul>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">品类</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">电脑主机</a>
+                </li>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">截止时间</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">2017-05-30</a>
+                </li>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">已报价</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">10人</a>
+                </li>
+            </ul>
+            <div class="rightbox">
+                <a href="#">给他报价</a>
+                <p class="active"><i class="icon-likefill"></i>已收藏</p>
+            </div>
+
+        </li>
+        <li class="flex-box li">
+            <ul>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">品类</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">电脑主机</a>
+                </li>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">截止时间</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">2017-05-30</a>
+                </li>
+                <li class="weui_cell">
+                    <div class="weui_cell_hd">已报价</div>
+                    <a href="tel://021-64339163" class="weui_cell_bd weui_cell_primary text-left">10人</a>
+                </li>
+            </ul>
+            <div class="rightbox">
+                <a href="#">给他报价</a>
+                <p class=""><i class="icon-like"></i>收藏</p>
+            </div>
+
+        </li> 
+    </ul>
+<script>
+    $.confirm(`<div class="weui_cells">
+            <div class="weui_cell">
+                <div class="weui_cell_hd">询价品类</div>
+                <div class="weui_cell_bd weui_cell_primary">电脑主机</div>
+            </div>
+            <div class="weui_cell">
+                <div class="weui_cell_hd">截止时间</div>
+                <div class="weui_cell_bd weui_cell_primary">2017-05-30</div>
+            </div>
+            <div class="weui_cell">
+                <div class="weui_cell_hd">询价需求</div>
+                <div class="weui_cell_bd weui_cell_primary">网吧更换30台显示器，外加20套鼠标 键盘，考虑换曲屏显示器。</div>
+            </div>
+            <div class="weui_cell">
+                <div class="weui_cell_hd">我的报价</div>
+                <div class="weui_cell_bd weui_cell_primary red">50000.0元</div>
+            </div>
+            <div class="weui_cell">
+                <div class="weui_cell_bd weui_cell_primary gray">我这边有最新款AOC曲屏超薄显示器，每台单 价是1588元，电竞发热版机械键盘加鼠标，价 格已经是非常实惠的了，另外还可以加送</div>
+            </div>
+        </div>`,[{'yes':'确定'}],function(type){if(type){this.hide()}},{width:300,className:'popoffer'})
+       
+
+
+
+        var argument={'url' : 'data/list.json','res' : {'typeId':2},'success' : '','mainbox':$('.offerlist')}
+
+        $(function(){
+            addData(argument)
+
+            var _obj=$('.g-tab li');
+            function setClass(o){
+                _obj.removeClass('active');
+                o.addClass('active');
+
+                argument.res.typeId=o.data('type');
+            }
+            _obj.each(function(){
+                if($(this).data('type')==argument.res.typeId){
+                    setClass($(this))
+                }
+            })
+
+            _obj.click(function(){
+                argument.mainbox.empty()
+                setClass($(this))
+                addData(argument)
+            })
+
+
+
+        })
+        </script>
+</body>
+
+</html>

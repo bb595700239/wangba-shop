@@ -159,7 +159,7 @@
 		var rnd = Math.random().toString().replace('.', '');
 		this.id = 'dialog_' + rnd;
 		this.settings = {};
-		this.settings.closeTpl = $('<span class="ui-dialog-close js-dialog-close icon-close"></span>');
+		this.settings.closeTpl = $('<span class="ui-dialog-close js-dialog-close icon-round_close_light"></span>');
 		this.settings.titleTpl = $('<div class="ui-dialog-title"></div>');
 		this.timer = null;
 		this.showed = false;
